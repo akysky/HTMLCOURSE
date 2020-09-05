@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body bgcolor="gray">
+	<h1>My Bio Data</h1>
+	<form action="">
+		<fieldset>
+			<legend>Personal Information</legend>
+			<!-- First Name Field -->
+			<label for="First Name">First Name:</label>
+			<input type="text" name="First Name" id="First Name" placeholder="First Name" required>
+			
+			<!-- Last Name Field -->
+			<label for="Last Name">Last Name:</label>
+			<input type="text" name="Last Name" id="Last Name" placeholder="Last Name" required>
+
+			<br> <br>
+			<!-- Gender field -->
+			<label for="Gender">Gender:</label>
+			<input type="radio" name="Gender" id="Male" required> Male
+			<input type="radio" name="Gender" id="Female" required> Female
+			<input type="radio" name="Gender" id="Other" required> Other
+
+			<br> <br>
+			<!-- DOB field -->
+			<label for="DOB">DOB:</label>
+			<input type="date" name="DOB" id="DOB" required>
+
+			<br> <br>
+			<!-- Email field-->
+			<label for="Email">Email:</label>
+			<input type="email" name="Email" id="Email" placeholder="abc@email.com" required>
+
+			<br> <br>
+			<!-- Phone number field -->
+			<label for="Phone No.">Phone Number:</label>
+			<input type="tel" name="Phone No." id="Phone No." placeholder="91+" required>
+
+			<br> <br>
+			<!-- Height field -->
+			<label for="Height">Height:</label>
+			<input type="number" name="Height" id="Height" required>
+			</fieldset>
+
+			<fieldset>
+				<legend>Education</legend>
+
+				<br> <br>
+				<!-- School Name field -->
+				<label for="School Name">School Name:</label>
+				<input type="text" name="School Name" id="School Name" placeholder="Your School Name" required>
+
+				<br> <br>
+				<!-- Class field-->
+				<label for="Class">Class:</label>
+				<input type="number" name="Class" id="Class" max="12" placeholder="Your Class" required>
+
+				<br> <br>
+				<!-- Stream field-->
+				<label for="Stream">Stream</label>
+				<select name="Stream" id="Stream" required>
+					<option value="PCM">PCM</option>
+					<option value="PCB">PCB</option>
+					<option value="Humanities">Humanities</option>
+				</select>
+
+				<br> <br>
+				<!-- Marksheet  field-->
+				<label for="Marksheet">Marksheet:</label>
+				<input type="file" name="Marksheet" id="Marksheet" required>
+			</fieldset>
+			<br> <br>
+				<!-- Submit button -->
+				<input type="submit" value="Submit" required>
+	</form>
+</body>
+</html>
