@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Part Two</title>
+</head>
+<body bgcolor="lightblue">
+    <form action="">
+        <fieldset aria-required="true">
+            <legend>
+                General Information
+            </legend>
+
+            <!-- Arrival Date -->
+            <label for="ArrivalDate">Arrival Date</label>
+            <input type="date" name="ArrivalDate" id="ArrivalDate">
+            <br> <br>
+
+            <!-- Nights -->
+            <label for="Nights">Nights</label>
+            <input type="text" name="Nights" id="Nights" required>
+            <br> <br>
+
+            <!-- Adults -->
+            <label for="Adults">Adults</label>
+            <input type="number" name="Adults" id="Adults" max="10" min="1" >
+            <br> <br>
+
+            <!-- Children -->
+            <label for="Children">Children</label>
+            <input type="number" name="Children" id="Children" max="10" min="0">
+            <br> <br>
+        </fieldset>
+
+        <fieldset aria-required="true">
+            <legend>
+                Preferences
+            </legend>
+
+            <!-- Room Type -->
+            <label for="RoomType">Room Type</label>
+            <input type="radio" name="RoomType" id="Standard"> Standard
+            <input type="radio" name="RoomType" id="Business"> Business
+            <input type="radio" name="RoomType" id="Suite"> Suite
+            <br> <br>
+
+            <!-- Bed Type -->
+            <label for="BedType">Bed Type</label>
+            <input type="radio" name="BedType" id="King"> King
+            <input type="radio" name="BedType" id="Double Double"> Double Double
+            <br> <br>
+
+            <!-- Smoking? -->
+            <label for="Smoking">Smoking</label>
+            <input type="checkbox" name="Smoking" id="Smoking">
+            <br> <br>
+
+            <!--Food Options-->
+            <label for="FoodOptions">Food Options</label>
+            <input type="text" name="FoodOptions" list="list1" multiple>
+            <datalist id="list1">
+                <option value="Veg">Veg</option>
+                <option value="Non - Veg">Non - Veg</option>
+            </datalist>
+            <br> <br>
+        </fieldset>
+        <fieldset>
+            <legend>Contact Information</legend>
+
+            <label for="Name"></label>
+            <input type="text" name="Name" id="Name">
+            <br> <br>
+
+            <label for="Email">Email</label>
+            <input type="mail" name="mail" id="mail">
+            <br> <br>
+
+            <label for="Phone">Phone</label>
+            <input type="tel" name="Phone" id="Phone">
+            <br> <br>
+
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+            <br> <br>
+        </fieldset>
+
+        <fieldset>
+            <legend>
+                Distance Information
+            </legend>
+            <label for="fuel">fuel meter</label>
+            <meter
+            name="fuel"
+            id="fuel"
+            value="70"
+            min="0"
+            max="100"
+            value="29"
+            low="30"
+            high="60"
+            optimum="80"
+            >
+            </meter>
+            <br> <br>
+
+
+            <label for="prog">Progress Bar</label>
+            <progress type="prog" name="prog" id="prog" max="100" value="70">
+            </progress>
+            <br> <br>
+
+
+            <label for="textbox">Write About The Place Of Visit</label>
+           <textarea name="textbox" id="textbox" cols="30" rows="3" placeholder="Write About The Place Of Visit"></textarea>
+        </fieldset>
+        <input type="submit" value="Submit">
+
+    </form>
+</body>
+</html>
