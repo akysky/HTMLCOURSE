@@ -1,0 +1,30 @@
+h1{
+    background-color: #EA7773;
+    text-align: center;
+}
+a.CB{
+    text-decoration: none;
+}
+div.IndentedText{
+    text-indent: 100px;
+}
+h2{
+    color: #EA425C;
+}
+h2.CapAm{
+  color: #487EB0;  
+  text-decoration: overline;
+  text-align: right;
+}
+h2.IM{
+  background-color: #EEC213;
+  text-align: center;
+  text-decoration: underline;
+}
+div.StrikedThrough{
+    text-decoration: line-through;
+}
+div.rtl{
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
