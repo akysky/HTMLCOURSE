@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+}
+.One h1{
+    font-size: xxx-large;
+    text-align: center;
+    color: orangered;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.7),
+    6px 6px 2px orange,
+    7px 7px 3px rgba(0,0,0,0.7),
+    11px 11px 2px red,
+    12px 12px 2px rgba(0,0,0,0.7),
+    16px 16px 2px purple,
+    17px 17px 3px rgba(0,0,0,0.7);
+}
+
+.Two{
+    font-weight: bolder;
+    font-size: 30px;
+    text-decoration: underline;
+    text-decoration: line-through;
+    color: wheat;
+}
+
+p{
+    color: darkgreen;
+}
+
+p .Three{
+    font-size: x-large;
+    color: red;
+}
+
+.Four{
+    font-size: x-large;
+    color: red;
+}
+
+span{
+    color: darkgreen;
+    font-size: small;
+}
+
+.Six{
+    color: brown;
+    text-transform: uppercase;
+}
+.Seven{
+    color: blue;
+    font-size: x-large;
+}
