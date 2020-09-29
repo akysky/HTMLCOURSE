@@ -1,0 +1,58 @@
+body{
+    background-color: #1BCA9B;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+    font-weight: lighter;
+    background-color: white;
+    
+    /* Margin Settings */
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+    /* Padding Settings */
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.division2{
+    background-color: white;
+    
+    /* Margin Settings */
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+    /* Padding Settings */
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.EnlargedContent{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.Capitalized{
+    text-transform: uppercase;
+    margin-left: 150px;
+}
+.Uncapitalized{
+    text-transform: capitalize;
+}
+.Division3{
+    background-color: white;
+    
+    /* Margin Settings */
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+    /* Padding Settings */
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
