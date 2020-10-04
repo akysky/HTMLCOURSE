@@ -1,0 +1,23 @@
+h2{
+    text-transform: uppercase;
+    text-align: center;
+}
+body{
+    background-color: darkturquoise;
+    border-width: 10px;
+    border-color: rgb(0, 0, 255);
+    border-style: double;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-top-color: lightblue;
+    border-bottom-color: darkcyan;
+}
+div.DashedBorder{
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    border-width: 10px;
+    border-style: dashed;
+    border-radius: 20px;
+    color: darkred;
+    border-top-color: grey;
+}
